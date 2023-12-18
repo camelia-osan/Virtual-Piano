@@ -1,0 +1,154 @@
+body {
+    background-color: #355E3B;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+}
+
+.white-keys kbd {
+    background-color: white;
+    display: inline-block;
+    height: 18vw;
+    width: 6vw;
+    border-style: outset;
+    margin-left: -0.45vw;
+    text-align: center;
+    line-height: 27vw;
+}
+
+.black-keys kbd {
+    display: inline-block;
+    background-color: black;
+    border-color: black;
+    color: white;
+    height: 10.5vw;
+    width: 3.5vw;
+    border-style: outset;
+    text-align: center;
+    line-height: 15vw;
+    margin-bottom: 7.75vw;
+    margin-right: 2.5vw;
+}
+
+.white-keys,
+.black-keys {
+    position: absolute;
+}
+
+#kbdW {
+    margin-left: 2.5vw;
+}
+
+.toLeft {
+    margin-right: 1.25vw;
+}
+
+#kbdE {
+    margin-right: 7vw;
+}
+
+.toRight {
+    margin-right: 1.25vw;
+}
+
+/* Media queries */
+@media only screen and (min-width: 320px) and (max-width: 481px) {
+    .white-keys kbd {
+        height: 35vw;
+        width: 9vw;
+        line-height: 60vw;
+        margin-left: -1.5vw;
+    }
+
+    .black-keys kbd {
+        height: 25vw;
+        width: 5vw;
+        line-height: 40vw;
+        margin-bottom: 11vw;
+        margin-right: 2.5vw;
+    }
+
+    #kbdE {
+        margin-right: 12.5vw;
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 769px) {
+    .white-keys kbd {
+        height: 30vw;
+        width: 9vw;
+        line-height: 50vw;
+        margin-left: -0.75vw;
+    }
+
+    .black-keys kbd {
+        height: 20vw;
+        width: 4.5vw;
+        line-height: 30vw;
+        margin-bottom: 10.5vw;
+        margin-right: 4vw;
+    }
+
+    #kbdW {
+        margin-left: 4vw;
+    }
+
+    #kbdE {
+        margin-right: 13.5vw;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1025px) {
+    .white-keys kbd {
+        height: 27vw;
+        width: 9vw;
+        line-height: 45vw;
+        margin-left: -0.75vw;
+    }
+
+    .black-keys kbd {
+        height: 17vw;
+        width: 4.75vw;
+        line-height: 25vw;
+        margin-bottom: 10.5vw;
+        margin-right: 4vw
+    }
+
+    #kbdW {
+        margin-left: 4vw;
+    }
+
+    #kbdE {
+        margin-right: 11.5vw;
+    }
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1201px) {
+    .white-keys kbd {
+        height: 22vw;
+        width: 8vw;
+        line-height: 35vw;
+        margin-left: -0.5vw;
+    }
+
+    .black-keys kbd {
+        height: 12.5vw;
+        width: 4vw;
+        line-height: 18vw;
+        margin-bottom: 10vw;
+        margin-right: 4vw;
+    }
+
+    #kbdW {
+        margin-left: 4vw;
+    }
+
+    #kbdE {
+        margin-right: 11.5vw;
+    }
+}
