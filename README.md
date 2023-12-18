@@ -16,7 +16,7 @@ For this project, I wrote by hand both the structure using *HTML5* and the desig
   
 The whole content is divided in two containers - one that wraps the white keys and one that wraps the black keys. The piano keys are *kbd* tags.
 
-The audio files are .mp3 files that are named after each letter on the piano.
+The sounds are .mp3 files that are named after each letter on the piano.
 
 - CSS
   
