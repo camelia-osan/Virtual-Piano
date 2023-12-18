@@ -20,7 +20,7 @@ The sounds are .mp3 files that are named after each letter on the piano.
 
 - CSS
   
-Elements were styled using *Flexbox*. I used relative measurement units for better screen compatibility and different classes for some black keys in order to position them on the piano body.
+The elements were styled using *Flexbox*. I used relative measurement units for better screen compatibility and different classes for some black keys in order to position them on the piano body.
 
 
 The screen compatibility is covered by the media queries.
