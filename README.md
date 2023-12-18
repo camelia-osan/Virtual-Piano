@@ -6,7 +6,7 @@ HTML, CSS and JS web project
 *Virtual-Piano* is a web project that displays a small piano with 12 keys (7 white keys and 5 black keys). Each piano key has a letter wrote on it which represents the keyboard key the user has to press in order to play that piano key (A, S, D, F, G, H and J for white keys and W, E, T, Y and U for black keys). The keys have different sounds (.mp3 audio files that are included in the *sounds* folder). No sound will play if another key, that is not on the piano, is pressed.
 
 
-Currently, this project works only on desktop, but I'm looking forward to make the phone version aswel.
+Currently, this project works on desktop only, but I'm looking forward to make the phone version aswel.
 
 
 ### Tools
